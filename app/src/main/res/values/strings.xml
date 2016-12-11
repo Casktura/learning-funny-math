@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">863196380413104</string>
+    //Manifest                <string name="app_name">Learning Funny Math</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_learn_selector">LearnSelector</string>
+    <string name="title_activity_game_selector">GameSelector</string>
+    <string name="title_activity_level_selector">LevelSelector</string>
+    <string name="title_activity_bingo">Bingo</string>
+    <string name="title_activity_matching">Matching</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bingo_score">BingoScore</string>
+    <string name="title_activity_matching_level_selector">MatchingLevelSelector</string>
+    <string name="title_activity_matching_score">MatchingScore</string>
+    //Main                <string name="main_header">Learning Funny\n Math</string>
+    <string name="main_button_learn">บทเรียน</string>
+    <string name="main_button_game">เกมส์</string>
+    //LearnSelector                <string name="learn_selector_header">บทเรียน</string>
+    <string name="learn_selector_add">การบวก</string>
+    <string name="learn_selector_sub">การลบ</string>
+    <string name="learn_selector_mul">การคูณ</string>
+    <string name="learn_selector_div">การหาร</string>
+    //GameSelector                <string name="game_selector_header">เกมส์</string>
+    <string name="game_selector_bingo">บิงโก</string>
+    <string name="game_selector_matching">จับคู่</string>
+    //LevelSelector                <string name="level_selector_header">ระดับความยาก</string>
+    <string name="level_selector_easy">ง่าย</string>
+    <string name="level_selector_medium">ปานกลาง</string>
+    <string name="level_selector_hard">ยาก</string>
+    //Bingo                <string name="bingo_header">เกมบิงโก</string>
+    <string name="title_activity_bingo_level_selector">BingoLevelSelector</string>
+    <string name="title_activity_naming">Naming</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="title_activity_subtraction">Subtraction</string>
+    <string name="title_activity_multiplication">Multiplication</string>
+    <string name="title_activity_division">Division</string>
+    <string name="title_activity_bingo_high_score">BingoHighScore</string>
+    <string name="title_activity_matching_high_score">MatchingHighScore</string>
+
+
+</resources>

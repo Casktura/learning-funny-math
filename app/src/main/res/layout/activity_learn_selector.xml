@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nsc.learningfunnymath.LearnSelector"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg3">
+
+    <TextView
+        android:text="@string/learn_selector_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#ff0029ff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/learn_selector_add"
+        android:background="@drawable/btn_purple"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffec1b"
+        android:onClick="goToAddition"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/learn_selector_sub"
+        android:background="@drawable/btn_purple"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffff806a"
+        android:onClick="goToSubtraction"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/learn_selector_mul"
+        android:background="@drawable/btn_purple"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffff81de"
+        android:onClick="goToMultiplication"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/learn_selector_div"
+        android:background="@drawable/btn_purple"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffff2711"
+        android:onClick="goToDivision"/>
+
+</LinearLayout>

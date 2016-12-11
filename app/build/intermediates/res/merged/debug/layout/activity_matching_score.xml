@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nsc.learningfunnymath.BingoScore"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:text="ผู้เล่น"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/name"
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+    <TextView
+        android:text="คะแนนเกมจับคู่"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffff2711"
+        android:textSize="50dp" />
+    <TextView
+        android:id="@+id/score_display"
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="45dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:onClick="postOnFacebook"
+        android:background="@drawable/facebooksharebutton"/>
+</LinearLayout>

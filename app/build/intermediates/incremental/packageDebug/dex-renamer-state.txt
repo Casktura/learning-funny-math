@@ -1,0 +1,7 @@
+#Sun Dec 11 16:40:38 ICT 2016
+base.0=C\:\\Users\\Kittipong Yothaithia\\Downloads\\LearningFunnyMath\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_34a9e7b766b6fc88996b89d343b3c86ddf755d68
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Kittipong Yothaithia\\Downloads\\LearningFunnyMath\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0fddf2b1aefbda36dbfddecd55324c39853a3601\\classes.dex
+base.1=C\:\\Users\\Kittipong Yothaithia\\Downloads\\LearningFunnyMath\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0fddf2b1aefbda36dbfddecd55324c39853a3601
+file.0=C\:\\Users\\Kittipong Yothaithia\\Downloads\\LearningFunnyMath\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_34a9e7b766b6fc88996b89d343b3c86ddf755d68\\classes.dex

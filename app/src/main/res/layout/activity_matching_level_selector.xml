@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.nsc.learningfunnymath.MatchingLevelSelector"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg2">
+    <TextView
+        android:text="@string/level_selector_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffff000e"
+        android:textSize="50dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="@string/level_selector_easy"
+        android:tag="easy"
+        android:onClick="continueToGame"
+        android:background="@drawable/btn_green"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="@string/level_selector_medium"
+        android:tag="medium"
+        android:onClick="continueToGame"
+        android:background="@drawable/btn_yellow"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ff00ffac"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="@string/level_selector_hard"
+        android:tag="hard"
+        android:onClick="continueToGame"
+        android:background="@drawable/btn_red"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ff7200ff" />
+</LinearLayout>
